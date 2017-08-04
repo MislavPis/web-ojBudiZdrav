@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="hr">
+ 
+<head>
+
+	<title>OJ, BUDI ZDRAV</title>
+
+<meta name="author" content="Mislav Piskać" />    
+<meta name="description" content="EU | Europska unija | Projekt | 3.ekonomska " />
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+    
+<link href="css/MainCss.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/mobileDeviceCss.css" rel="stylesheet" type="text/css" media="screen and (max-device-width: 720px" />
+
+</head>
+<body>
+	<div id="wrapper"><!--PočetakWrapper-->
+    	<nav><!--PočetakNavigation-->
+        	<ul class="navMenu">
+            	<li class="static"><a href="index.html" class="shadow">Naslovna</a></li>
+              	<li class="navigation static"><a href="#" class="main shadow">Projekt &darr;</a>
+                	<ul id="dropNav">
+                    	<li class="first drop"><a href="AlternativniSportovi.html">Alternativni sportovi</a></li>
+                        <li class="second drop"><a href="Recepti.html">Recepti</a></li>
+                        <li class="third drop"><a href="Projekt.html">Više o projektu</a></li>
+                    </ul></li>
+          		<li class="static"><a href="Galerija.html" class="shadow">Galerija</a></li>
+                <li class="navigation static"><a href="#" class="main shadow">Zanimljivosti &darr;</a>
+                	<ul id="dropNav">
+                    	<li class="first drop"><a href="Maksimir.html">Maksimir 17.5.2014.</a></li>
+                        <li class="second drop"><a href="Bundek.html">Bundek 15.6.2014.</a></li>
+                        <li class="third drop"><a href="#">Sljeme 21.6.2014.</a></li>
+                        <li class="fourth drop"><a href="Zanimljivosti.html">Sve zanimljivosti</a></li>
+                    </ul></li>
+                <li class="static"><a href="Anketa.html" class="shadow">Anketa</a></li>    
+                <li class="static"><a href="Kontakt.html" class="active shadow">Kontakt</a></li>
+            </ul>
+        </nav>
+   		<header><!--PočetakHeader-->
+        	<section>
+        		<div id="dv_logo">
+       	    		<img src="images/logo.png" alt="Oj, budi zdrav" title="Oj, budi zdrav" width="405" height="193"> 
+            	</div>
+           		<div id="dv_headerImage"></div>
+            </section>
+        </header><!--KrajHeader-->
+        <article><!--PočetakArticle-->
+        	<section id="sc_ArticleFive" class="SectionMain">
+            	<div id="sc_SectionBlock">
+                	<div id="sc_SectionBlockOne">
+                    	<h1 class="h_secondaryLabel">Udruga "Parlament mladih grada Zagreba"</h1>
+                    	<p class="p_SectionBlock">Adresa: Trg J.F.Kennedyja 5 <br 7> 10000 Zagreb <br /><br /> Tel: 01/2336-116 <br /> Mob: 091/899-0560 <br /> E-mail: ojbudizdrav@gmail.com</p>
+                    </div>
+                    <div id="sc_SectionBlockTwo">
+                    	<h1 class="h_secondaryLabel">Treća ekonomska škola</h1>
+                    	<p class="p_SectionBlock">Adresa: Trg J.F.Kennedyja 5 <br 7> 10000 Zagreb <br /><br /> Tel: 01/2336-116 <br /> Fax: 01/2328-023 </p>
+                    </div>
+                    	<br class="clearfix" />
+                </div>            
+            </section>
+        </article>
+        <fieldset id="fd_ContactFieldset">
+        <legend id="dv_ContactLegend">KONTAKT OBRAZAC</legend> 
+        <form action="eposta/newMessage.php" method="post" role="form">
+            
+            	<div id="dv_FullNameForm">
+            		<label for="fullname">Ime i prezime: </label>
+            		<input title="Ime i prezime!" type="text" name="name" id="fullname" class="txt" required />
+                </div>
+                <div id="dv_EmailForm">
+       			  <label for="email">Email adresa: </label>
+                    <input title="Email!" type="email" name="email" id="email" class="txt" required />
+                </div>
+                <div id="dv_CommentsForm">
+                  <label for="comments">Poruka: </label>
+                  <textarea title="Poruka!" name="message" id="comments" class="txt" cols="30" rows="4" required></textarea>
+                </div>              
+                
+				<div id="dv_form_button">  
+				  <input type="submit" name="btnSubmit" id="btnSubmit" value="Pošalji!" class="btn" />
+                  <input type="reset" name="btnClear" id="btnClear" value="Poništi!" class="btn" />
+                </div>           	
+                       
+        </form>
+        </fieldset> 
+    	<footer><!--PočetakFooter-->
+        	<p class="p_footer">Projekt "Oj, budi zdrav" &copy; 2014; Sva prava zadržana! </p>
+            <p class="p_footer">Design and developed by <a href="http://mislavpiskac.com/" target="_blank">Mislav Piskać</a>        
+        </footer><!--KrajFooter-->
+	</div><!--KrajWrapper-->
+</body>
+</html>
